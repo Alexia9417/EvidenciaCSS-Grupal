@@ -1,0 +1,71 @@
+.content {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: rgba(255, 255, 255, 0.7); /* Blanco con 70% de opacidad */
+    border-radius: 10px; /* Opcional: bordes redondeados */
+}
+
+.mod-card {
+	width: 600px;
+	background-color: #fff;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.2);
+	overflow: hidden;
+	display: flex;
+	flex-direction: row;
+	padding: 15px;
+}
+
+.mod-img {
+	width: 200px;
+	height: auto;
+	border-radius: 8px;
+}
+
+.mod-info {
+	padding-left: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.mod-icons {
+	margin-top: 10px;
+}
+
+.mod-icons img {
+	width: 32px;
+	margin-right: 8px;
+	cursor: pointer;
+}
+
+body {
+	background-image: url('../img/Fondo.jpg'); /* ajusta si tu imagen está en otra carpeta */
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+.criatura {
+	display: flex;
+	align-items: flex-start;
+	gap: 20px;
+	margin-bottom: 30px;
+	background-color: rgba(255, 255, 255, 0.8);
+	padding: 15px;
+	border-radius: 10px;
+}
+
+.criatura img {
+	width: 150px;
+	border-radius: 5px;
+}
+
+.criatura .descripcion {
+	flex: 1;
+}
+
+.criatura h2 {
+	margin-top: 0;
+}
